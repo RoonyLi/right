@@ -9,30 +9,15 @@
 	<name>right system</name>
 	<description>权限系统</description>
 	<modules>
-		<module>example</module>
-		<module>client</module>
-		<module>server</module>
 	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.7</jdk.version>
 		<current.version>0.0.1-SNAPSHOT</current.version>
-		
 		<spring-boot.version>1.5.1.RELEASE</spring-boot.version>
-
 	</properties>
-	<dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
 	<dependencies>
 	</dependencies>
 
